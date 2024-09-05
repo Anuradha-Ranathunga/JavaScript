@@ -31,10 +31,19 @@
 // const e = 6;
 // console.log(e)
 
-var x = 5;
-let y = 8;
-let sum = x + y;
-console.log(sum)
+// var x = 5;
+// let y = 8;
+// let sum = x + y;
+// console.log(sum)
 
-x= 7*6;
-console.log(x)
+// x= 7*6;
+// console.log(x)
+
+    function changeText() {
+        document.getElementById('test').style.fontWeight='bold'; 
+        document.getElementById('test').style.color='red';
+
+        document.getElementById('demo').style.display='block';
+
+    }
+    
