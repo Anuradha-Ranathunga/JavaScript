@@ -1,5 +1,5 @@
-function btn_generate(){
-    <svg id="barcode"></svg>
-    JsBarcode("#barcode", "Hi world!");
-
+function barcode(){
+    
+let val=document.getElementById("text_input").value;
+    JsBarcode("#barcode", val);
 }

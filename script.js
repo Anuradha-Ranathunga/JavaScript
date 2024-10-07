@@ -1,4 +1,4 @@
-// console.log("Hello World");
+console.log("Hello World");
 // //This is comment
 
 // /* This is a multi line comment
@@ -23,7 +23,7 @@
 
 // const c=3;
 // //c= 6;
-// console.log(c)
+// console.log(c)         
 
 // let d= 7;
 // console.log(d)
@@ -45,5 +45,13 @@
 
         document.getElementById('demo').style.display='block';
 
+    }
+
+    function addNumbers(){
+        let firNum = parseFloat(document.getElementById("fnum").value);
+        let secNum = parseFloat(document.getElementById("snum").value);
+        let answer = firNum + secNum ; 
+        console.log(answer)
+        document.getElementById("finalAnswer").innerHTML = "Answer is " +answer
     }
     

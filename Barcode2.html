@@ -6,21 +6,23 @@
     <title>Generate Barcode</title>
     <link rel="styleSheet" href="style.css">
     <script src="JsBarcode.all.min.js"></script>
-    
+    <script src="Barcode.js"> </script>
 </head>
 <body>
     <h1> Generate Barcode</h1>
     <p> Enter Barcode Value: 
         <input type: text id="text_input"><br>
-        <button id="btn_generate">Submit</button>
+        <button id="btn_generate" onclick=barcode()>Submit</button>
     </p>
     
     <svg id="barcode"></svg> <!-- Scalable Vector Graphic-->
+    <!--
     <script>
         document.getElementById('btn_generate').addEventListener('click',function(){
         let val=document.getElementById("text_input").value;
             JsBarcode("#barcode", val);
         })
     </script>
+    -->
 </body>
 </html>
