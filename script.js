@@ -54,4 +54,10 @@ console.log("Hello World");
         console.log(answer)
         document.getElementById("finalAnswer").innerHTML = "Answer is " +answer
     }
+
+    function parameters(x , y , z){
+        return x * y + z;
+    }
     
+    let p = parameters(2,10,5);
+    console.log(p);
